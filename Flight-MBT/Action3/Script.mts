@@ -7,7 +7,7 @@ c=Parameter("PassengerName")
 
 'Get to BOOK FLIGHT and SEARCH ORDER screen if you aren't already there
  @@ hightlight id_;_2137773064_;_script infofile_;_ZIP::ssf9.xml_;_
-if WpfWindow("Opentext MyFlight Sample").WpfButton("NEW SEARCH").Exist then
+if WpfWindow("Opentext MyFlight Sample").WpfButton("NEW SEARCH").Exist (4) then
 	WpfWindow("Opentext MyFlight Sample").WpfButton("NEW SEARCH").Click
 End If
 
