@@ -31,7 +31,8 @@ WpfWindow("OpenText MyFlight Sample").WpfButton("ORDER").Click
 
 Wait 2 ' The Exist statement below seems to find a little box that exists if we run too fast - so the Wait is necessary
 'Wait for Completed message to appear (about 3-4 seconds)
-If WpfWindow("OpenText MyFlight Sample").WpfObject("OrderCompletedMessage").Exist (4) Then
+ 
+If WpfWindow("OpenText MyFlight Sample").WpfObject("OrderCompletedMessage").Exist Then
 	WpfWindow("OpenText MyFlight Sample").WpfObject("OrderCompletedMessage").Output CheckPoint("OrderCompletedNumber") @@ hightlight id_;_1929008192_;_script infofile_;_ZIP::ssf20.xml_;_
 End  If
 
