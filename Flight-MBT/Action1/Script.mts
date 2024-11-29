@@ -4,7 +4,7 @@
 a=Parameter("Username")
 b=Parameter("Password")
 
-'Start the Flight GUI Appolication
+'Start the Flight GUI Appolicationdvfv
 ' run
 SystemUtil.Run "C:\Program Files (x86)\OpenText\UFT One\samples\Flights Application\FlightsGUI.exe"
  
