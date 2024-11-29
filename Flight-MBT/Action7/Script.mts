@@ -21,7 +21,7 @@ WpfWindow("OpenText MyFlight Sample").WpfEdit("passengerName").Set c @@ hightlig
 If WpfWindow("OpenText MyFlight Sample").WpfButton("updateBtn").GetROProperty("enabled")  = True Then
 	WpfWindow("OpenText MyFlight Sample").WpfButton("updateBtn").Click
 Else
-	WpfWindow("OpenText MyFlight Sample").WpfComboBox("numOfTicketsCombo").Select 4 ' we set to 2 so 4 should be a different value
+	WpfWindow("OpenText MyFlight Sample").WpfComboBox("numOfTicketsCombo").Select 1 ' we set to 2 so 4 should be a different value
 	WpfWindow("OpenText MyFlight Sample").WpfButton("updateBtn").Click ' the Check icon should now be enabled
 End  If
 
